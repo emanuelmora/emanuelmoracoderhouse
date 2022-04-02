@@ -1,0 +1,31 @@
+h1 {
+  background-color: rgb(241, 234, 234);
+}
+main {
+  align-items: baseline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: auto;
+}
+.colorfooter {
+  background-color: rgb(155, 151, 151);
+}
+.textcolor {
+  color: white;
+}
+
+.fadeIn {
+  opacity: 0.2;
+  transition: opacity 1.5s;
+}
+
+.fadeIn:hover {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
